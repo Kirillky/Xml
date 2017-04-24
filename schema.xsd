@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+  <xs:element name="MujTop" type="MujTopType"/>
+  <xs:complexType name="nazevType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="original"/>
+      <xs:element type="xs:string" name="cesky"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="posterType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="url"/>
+      <xs:element type="xs:string" name="title"/>
+      <xs:element type="xs:string" name="zoom"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="rezieType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="jmeno"/>
+      <xs:element type="xs:string" name="prijmeni"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="predlohaType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="jmeno"/>
+      <xs:element type="xs:string" name="prijmeni"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="popisType">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute type="xs:string" name="stranka" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="informaceType">
+    <xs:sequence>
+      <xs:element type="nazevType" name="nazev"/>
+      <xs:element type="posterType" name="poster"/>
+      <xs:element type="xs:string" name="zanr"/>
+      <xs:element type="xs:string" name="zeme"/>
+      <xs:element name="rok">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="1994"/>
+            <xs:enumeration value="1993"/>
+            <xs:enumeration value="2010"/>
+            <xs:enumeration value="1999"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="delka">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="142"/>
+            <xs:enumeration value="195"/>
+            <xs:enumeration value="148"/>
+            <xs:enumeration value="131"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="rezieType" name="rezie"/>
+      <xs:element type="predlohaType" name="predloha"/>
+      <xs:element type="popisType" name="popis"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="trailerType">
+    <xs:sequence>
+      <xs:element name="kvalita">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="720"/>
+            <xs:enumeration value="1080"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="vyska"/>
+      <xs:element name="hlasitost">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="90"/>
+            <xs:enumeration value="50"/>
+            <xs:enumeration value="100"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="dabovani">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="True"/>
+            <xs:enumeration value="False"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="sirka"/>
+      <xs:element type="xs:string" name="url"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="trailerID" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="kinoType">
+    <xs:sequence>
+      <xs:element name="spolecnost">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Intersonic"/>
+            <xs:enumeration value="Lucernafilm"/>
+            <xs:enumeration value="Warner Bros."/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="den"/>
+      <xs:element name="mesic">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="07"/>
+            <xs:enumeration value="03"/>
+            <xs:enumeration value="10"/>
+            <xs:enumeration value="08"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="rok">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="1995"/>
+            <xs:enumeration value="1994"/>
+            <xs:enumeration value="2010"/>
+            <xs:enumeration value="1999"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="DVDType">
+    <xs:sequence>
+      <xs:element name="spolecnost">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="H.C.E."/>
+            <xs:enumeration value="Universal"/>
+            <xs:enumeration value="Magic Box"/>
+            <xs:enumeration value="Warner Bros."/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="den">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="01"/>
+            <xs:enumeration value="19"/>
+            <xs:enumeration value="08"/>
+            <xs:enumeration value="11"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="mesic">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="11"/>
+            <xs:enumeration value="04"/>
+            <xs:enumeration value="12"/>
+            <xs:enumeration value="02"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="rok">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="2001"/>
+            <xs:enumeration value="2004"/>
+            <xs:enumeration value="2010"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="premiera_CRType">
+    <xs:sequence>
+      <xs:element type="kinoType" name="kino"/>
+      <xs:element type="DVDType" name="DVD"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="movieType">
+    <xs:sequence>
+      <xs:element type="informaceType" name="informace"/>
+      <xs:element type="trailerType" name="trailer"/>
+      <xs:element type="premiera_CRType" name="premiera_CR"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="id" use="optional"/>
+    <xs:attribute type="xs:string" name="country" use="optional"/>
+    <xs:attribute type="xs:string" name="topIMDB" use="optional"/>
+    <xs:attribute type="xs:string" name="type" use="optional"/>
+    <xs:attribute type="xs:string" name="MujTop" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="MujTopType">
+    <xs:sequence>
+      <xs:element type="movieType" name="movie" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

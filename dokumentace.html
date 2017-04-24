@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" lang="cz">
+<head>
+  <title>Dokumentace</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    .cover {
+      width: 20%;
+    }
+    .release, .MujTop {
+      width: 60%;
+    }
+    .source, .trailer, .elementy{
+      width: 40%;
+    }
+    .panel {
+      width: 50%;
+    }
+    .year {
+      margin-top: 25px;
+    }
+    footer {
+      color: #00FFFF;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      padding: 0 50px;
+      font-size: 17px;
+      height: 40px;
+      line-height: 30px;
+      background-color: #6A5ACD;
+    }
+    footer .col-md-4:nth-child(1) {
+      text-align: left;
+          }
+    footer .col-md-4:nth-child(2) {
+      text-align: center;
+    }
+    footer .col-md-4:nth-child(3) {
+      text-align: right;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <div class="jumbotron">
+      <h1>MujTop</h1>      
+      <p>Aplikace povoluje hledat filmy podle ruznych parametru</p>
+    </div>
+  </header>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li><a href="#elements">Elementy</a></li>
+        <li><a href="#type">Typy</a></li>
+        <li><a href="#footer"></a></li>
+      </ul>
+    </div>
+  </nav>
+  <main> 
+    <h1 id="elements">Elementy</h1>
+    <table class="elements table table-hover">
+      <caption>Seznam elementu</caption>
+        <thead>
+          <tr class="info">
+            <th>nazev</th>
+            <th>type</th>
+            <th>Co znamena?</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>title</td>
+            <td>xs:string</td>
+            <td>Nazev filmu v anglictine</td>
+          </tr>
+          <tr>
+            <td>titleCz</td>
+            <td>xs:string</td>
+            <td>Nazev filmu v cestine</td>
+          </tr>
+          <tr>
+            <td><a href="#poster">poster</a></td>
+            <td>xs:complexType</td>
+            <td>Plakat</td>
+          </tr>
+          <tr>
+            <td><a href="#premiera_CR">DatumVydani</a></td>
+            <td>xs:complexType</td>
+            <td>Datum vydani</td>
+          </tr>
+          <tr>
+          <td><a href="#hodnoceni">hodnoceni</a></td>
+            <td>xs:string</td>
+            <td>hodnoceni</td>
+          </tr>
+          <tr>
+            <td>popis</td>
+            <td>xs:string</td>
+            <td>O cem je film</td>
+          </tr>
+          <tr>
+            <td><a href="#source">source</a></td>
+            <td>xs:complexType</td>
+            <td>tkud je informace</td>
+          </tr>
+          <tr>
+            <td><a href="#trailer">trailer</a></td>
+            <td>xs:complexType</td>
+            <td>trailer</td>
+          </tr>
+          <tr>
+            <td>zanr</td>
+            <td><a href="zanr">xs:string</a></td>
+            <td>zanr filmu</td>
+          </tr>
+          <tr>
+            <td><a href="#review">review</a></td>
+            <td>xs:complexType</td>
+            <td>recenze</td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="trailer table table-hover" id="trailer">
+        <caption>trailer</caption>
+        <thead>
+          <tr class="info">
+            <th>nazev</th>
+            <th>typ</th>
+            <th>informace</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>hlasitost</td>
+            <td><a href="#hlasitost">hlasitost</a></td>
+            <td>nastaveni hlasitosti</td>
+          </tr>
+          <tr>
+            <td>sirka</td>
+            <td><a href="#sirka">sirka</a></td>
+            <td>nastaveni sirki</td>
+          </tr>
+          <tr>
+            <td>vyska</td>
+            <td><a href="#vyska">vyska</a></td>
+            <td>nastaveni vyski</td>
+          </tr>
+          <tr>
+            <td>kvalita</td>
+            <td><a href="#kvalita">kvalita</a></td>
+            <td>nastaveni kvality</td>
+          </tr>
+          <tr>
+            <td>dabovani</td>
+            <td>xs:string</td>
+            <td>dabovany nebo ne</td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="source table table-hover" id="source">
+        <caption>source</caption>
+        <thead>
+          <tr class="info">
+            <th>nazev</th>
+            <th>typ</th>
+            <th>informace</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>url</td>
+            <td>xs:anyURI</td>
+            <td>odkud cerpame informace</td>
+          </tr>
+          <tr>
+            <td>format</td>
+            <td>xs:string</td>
+            <td>v jakem formatu cerpame informace</td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="release table table-hover" id="release">
+        <caption>release</caption>
+        <thead>
+          <tr class="info">
+            <th>nazev</th>
+            <th>Typ</th>
+            <th>Informace</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>year</td>
+            <td><a href="#year">year</a></td>
+            <td>Rok vydani</td>
+          </tr>
+          <tr>
+            <td>month</td>
+            <td><a href="#month">month</a></td>
+            <td>Mesic vydani</td>
+          </tr>
+          <tr>
+            <td>day</td>
+            <td><a href="#day">day</a></td>
+            <td>Den vydani</td>
+          </tr>
+        </tbody>
+      </table>
+ <h2 id="type">Typy</h2> 
+      <div class="den panel panel-default" id="den">
+        <div class="panel-heading">den</div>
+        <div class="panel-body">
+          <ul>
+            <li>cislo v intervalu od 1 do 31</li>
+          </ul>
+        </div>
+      </div>
+      <div class="mesic panel panel-default" id="mesic">
+        <div class="panel-heading">mesic</div>
+        <div class="panel-body">
+          <ul>
+            <li>cislo v intervalu od 1 do 12</li>
+          </ul>
+        </div>
+      </div>
+      <div class="rok panel panel-default" id="rok">
+        <div class="panel-heading">rok</div>
+        <div class="panel-body">
+          <ul>
+            <li>ctyrciferne cislo</li>
+            <li>minimalni hodnota 1895 (prvni film)</li>
+            <li>prvni cislo 1 nebo 2</li>
+          </ul>
+        </div>
+      </div>
+      <div class="hlasitost panel panel-default" id="hlasitost">
+        <div class="panel-heading">hlasitost</div>
+        <div class="panel-body">
+          <ul>
+            <li>cislo v intervalu od 0 do 100</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="movieRate panel panel-default" id="movieRate">
+        <div class="panel-heading">movieRate</div>
+        <div class="panel-body">
+          <ul>
+            <li>cislo v intervalu od 0 do 10 (vcetne)</li>
+            <li>dve desetinna mista</li>
+          </ul>
+        </div>
+      </div>
+      
+    
+      <div class="sirka panel panel-default" id="sirka">
+        <div class="panel-heading">sirka</div>
+        <div class="panel-body">
+          Muze nabyvat hodnot
+          <ul>
+            <li>426</li>
+            <li>640</li>
+            <li>860</li>
+            <li>1280</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="vyska panel panel-default" id="vyska">
+        <div class="panel-heading">vyska</div>
+        <div class="panel-body">
+          Muze nabyvat hodnot
+          <ul>
+            <li>480</li>
+            <li>720</li>
+            <li>1080</li>
+            <li>1440</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="kvalita panel panel-default" id="kvalita">
+        <div class="panel-heading">kvalita</div>
+        <div class="panel-body">
+          Muze nabyvat hodnot
+          <ul>
+            <li>480</li>
+            <li>720</li>
+            <li>1080</li>
+            <li>1440</li>
+          </ul>
+        </div>
+      </div>
+      
+  </main>
+  <footer id="footer">
+    <div class="row">
+      <div class="col-md-4">L.O.L s.r.o</div>
+      <div class="col-md-4">All right reserved 2017</div>
+      <div class="col-md-4">Kirill Kukareka</div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

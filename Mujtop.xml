@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MujTop>
+	<movie id="22" country="USA" topIMDB="1" type="movie" MujTop="1">
+	<informace>
+	     <nazev>
+             <original>The Shawshank Redemption</original>
+             <cesky>Vykoupení z věznice Shawshank</cesky>
+         </nazev>
+         <poster>
+             <url>http://www.imdb.com/title/tt0111161/mediaviewer/rm3597327872</url>
+             <title>Poster of "The Shawshank Redemption"</title>
+             <zoom>False</zoom>
+         </poster>
+         <zanr>Drama / Krimi</zanr>
+         <zeme>USA</zeme>
+         <rok>1994</rok>
+         <delka>142</delka>
+         <rezie>
+             <jmeno>Frank</jmeno>
+             <prijmeni>Darabont</prijmeni>
+         </rezie>
+         <predloha>
+         	 <jmeno>Stephen</jmeno>
+         	 <prijmeni>King</prijmeni>
+         </predloha>
+         <popis stranka="http://www.csfd.cz/film/2294-vykoupeni-z-veznice-shawshank/prehled/">
+         	Strach dělá z lidí vězně. Naděje jim dává křídla. Film natočený podle novely Stephena Kinga. Strhující příběh o přátelství, naději a moudrosti s velmi výraznými hereckými i charakterovými osobnostmi. Andy Dufresne přichází do vězení v Shawshanku jako nový vězeň podezřelý z vraždy. Spřátelí se s doživotně odsouzeným Redem a společně se snaží přežít v nelidském prostředí vězeňského systému.
+         </popis>
+     </informace>
+     <trailer trailerID="2244"> 
+         <kvalita>720</kvalita>
+         <vyska>720</vyska>
+         <hlasitost>90</hlasitost>
+         <dabovani>True</dabovani>
+         <sirka>1440</sirka>
+         <url>https://www.youtube.com/watch?v=NmzuHjWmXOc</url>
+      </trailer>
+     <premiera_CR>
+      <kino>
+        <spolecnost>Intersonic</spolecnost>
+        <den>06</den>
+        <mesic>07</mesic>
+        <rok>1995</rok>
+      </kino>
+      <DVD>
+        <spolecnost>H.C.E.</spolecnost>
+        <den>01</den>
+        <mesic>11</mesic>
+        <rok>2001</rok>
+      </DVD>
+     </premiera_CR>
+</movie>
+<movie id="33" country="USA" topIMDB="6" type="movie" MujTop="3">
+	<informace>
+		 <nazev>
+			<original>Schindler's List</original>
+            <cesky>Schindlerův seznam</cesky>
+		 </nazev>
+         <poster>
+             <url>http://www.imdb.com/title/tt0108052/mediaviewer/rm1610023168</url>
+             <title>Poster of "Schindler's List"</title>
+             <zoom>False</zoom>
+         </poster>
+         <zanr>Drama / Zivotopisny / Valecny</zanr>
+         <zeme>USA</zeme>
+         <rok>1993</rok>
+         <delka>195</delka>
+         <rezie>
+             <jmeno>Steven</jmeno>
+             <prijmeni>Spielberg</prijmeni>
+         </rezie>
+         <predloha>
+         	 <jmeno>Thomas</jmeno>
+         	 <prijmeni>Keneally</prijmeni>
+         </predloha>
+         <popis stranka="http://www.csfd.cz/film/8653-schindleruv-seznam/prehled/">
+         	Hluboce šokující, nemilosrdné drama o noční můře holocaustu, založené na skutečných událostech. Na záchranu 1100 životů obětoval Oskar Schindler veškeré své jmění... Polský Krakov 1939. Židovská obec je vystavována stále se zvyšujícímu tlaku ze strany nacistů. Do této vřavy vstupuje obchodník Oskar Schindler, člen Nacistické strany, velký svůdník a muže vydělávající na válečném utrpení, který dokázal najít v sobě člověka a zachránit ty, kterým už zdánlivě nebylo pomoci...
+         </popis>
+     </informace>
+     <trailer trailerID="3355"> 
+         <kvalita>1080</kvalita>
+         <vyska>1080</vyska>
+         <hlasitost>50</hlasitost>
+         <dabovani>True</dabovani>
+         <sirka>1280</sirka>
+         <url>https://www.youtube.com/watch?v=JdRGC-w9syA</url>
+      </trailer>
+     <premiera_CR>
+      <kino>
+        <spolecnost>Lucernafilm</spolecnost>
+        <den>10</den>
+        <mesic>03</mesic>
+        <rok>1994</rok>
+      </kino>
+      <DVD>
+        <spolecnost>Universal</spolecnost>
+        <den>19</den>
+        <mesic>04</mesic>
+        <rok>2004</rok>
+      </DVD>
+     </premiera_CR>
+ </movie>
+<movie id="44" country="USA" topIMDB="13" type="movie" MujTop="2">
+    <informace>
+         <nazev>
+             <original>Forrest Gump</original>
+             <cesky>Forrest Gump</cesky>
+         </nazev>
+         <poster>
+             <url>http://www.imdb.com/title/tt0109830/mediaviewer/rm2864190720</url>
+             <title>Poster of "Forrest Gump"</title>
+             <zoom>False</zoom>
+         </poster>
+         <zanr>Drama / Komedie</zanr>
+         <zeme>USA</zeme>
+         <rok>1994</rok>
+         <delka>142</delka>
+         <rezie>
+             <jmeno>Robert</jmeno>
+             <prijmeni>Zemeckis</prijmeni>
+         </rezie>
+         <predloha>
+             <jmeno>Winston</jmeno>
+             <prijmeni>Groom</prijmeni>
+         </predloha>
+         <popis stranka="http://www.csfd.cz/film/10135-forrest-gump/prehled/">
+           Zemeckisův film je brilantním shrnutím dosavadních režisérových poznatků o možnostech "comicsového" vyprávění. Formálně i obsahově nejméně konvenční z jeho snímků přesvědčuje komediálními gagy i naléhavě patetickým tónem. Jeho hrdinou je prosťáček Forrest Gump, typický obyčejný muž, který od dětství dělal, co se mu řeklo.
+         </popis>
+     </informace>
+     <trailer trailerID="4466"> 
+         <kvalita>480</kvalita>
+         <vyska>1440</vyska>
+         <hlasitost>90</hlasitost>
+         <dabovani>True</dabovani>
+         <sirka>1440</sirka>
+         <url>https://www.youtube.com/watch?v=bLvqoHBptjg</url>
+      </trailer>
+     <premiera_CR>
+      <kino>
+        <spolecnost>Lucernafilm</spolecnost>
+        <den>20</den>
+        <mesic>10</mesic>
+        <rok>1994</rok>
+      </kino>
+      <DVD>
+        <spolecnost>H.C.E.</spolecnost>
+        <den>01</den>
+        <mesic>11</mesic>
+        <rok>2001</rok>
+      </DVD>
+     </premiera_CR>
+</movie>
+<movie id="44" country="USA" topIMDB="14" type="movie" MujTop="4">
+    <informace>
+         <nazev>
+             <original>Inception</original>
+             <cesky>Pocatek</cesky>
+         </nazev>
+         <poster>
+             <url>http://www.imdb.com/title/tt1375666/mediaviewer/rm3426651392</url>
+             <title>Poster of "Inception"</title>
+             <zoom>False</zoom>
+         </poster>
+         <zanr>Thriller / Mysteriózní / Akční / Sci-Fi / Dobrodružný</zanr>
+         <zeme>USA</zeme>
+         <rok>2010</rok>
+         <delka>148</delka>
+         <rezie>
+             <jmeno>Christopher</jmeno>
+             <prijmeni>Nolan</prijmeni>
+         </rezie>
+         <predloha>
+             <jmeno>Christopher</jmeno>
+             <prijmeni>Nolan</prijmeni>
+         </predloha>
+         <popis stranka="http://www.csfd.cz/film/254156-pocatek/prehled/">
+           Dom Cobb je zkušený zloděj, absolutní špička v nebezpečném umění extrakce: krádeže cenných tajemství z hloubi podvědomí během snění, kdy je mysl nejzranitelnější. Cobbova vzácná schopnost z něj učinila vyhledávaného hráče v zákeřném světě korporátní špionáže, ale také z něj udělala uprchlíka a stála ho všechno, co kdy miloval. Teď dostane Cobb šanci na vykoupení.
+         </popis>
+     </informace>
+     <trailer trailerID="5577"> 
+         <kvalita>1080</kvalita>
+         <vyska>900</vyska>
+         <hlasitost>50</hlasitost>
+         <dabovani>False</dabovani>
+         <sirka>1440</sirka>
+         <url>https://www.youtube.com/watch?v=YoHD9XEInc0</url>
+      </trailer>
+     <premiera_CR>
+      <kino>
+        <spolecnost>Warner Bros.</spolecnost>
+        <den>22</den>
+        <mesic>07</mesic>
+        <rok>2010</rok>
+      </kino>
+      <DVD>
+        <spolecnost>Magic Box</spolecnost>
+        <den>08</den>
+        <mesic>12</mesic>
+        <rok>2010</rok>
+      </DVD>
+     </premiera_CR>
+</movie>
+<movie id="55" country="USA" topIMDB="18" type="movie" MujTop="5">
+    <informace>
+         <nazev>
+             <original>Matrix</original>
+             <cesky>Matrix</cesky>
+         </nazev>
+         <poster>
+             <url>http://www.imdb.com/title/tt0133093/mediaviewer/rm525547776</url>
+             <title>Poster of "Matrix"</title>
+             <zoom>False</zoom>
+         </poster>
+         <zanr>Akční / Sci-Fi</zanr>
+         <zeme>USA</zeme>
+         <rok>1999</rok>
+         <delka>131</delka>
+         <rezie>
+             <jmeno>Lilly a Lana</jmeno>
+             <prijmeni>Wachowski</prijmeni>
+         </rezie>
+         <predloha>
+             <jmeno>Lilly a Lana</jmeno>
+             <prijmeni>Wachowski</prijmeni>
+         </predloha>
+         <popis stranka="http://www.csfd.cz/film/9499-matrix/prehled/">
+           Uvěříte neuvěřitelnému! Představte si, že vaše realita je jen iluzí a vaše nejtemnější noční můry jsou ve skutečnosti pravdivé. Představte si, že vaše současnost je vlastně minulostí a to budoucí se děje právě teď. Když si to dokážete představit, potom se budete cítit jako hrdina snímku Matrix Thomas Anderson.
+         </popis>
+     </informace>
+     <trailer trailerID="6688"> 
+         <kvalita>1440</kvalita>
+         <vyska>900</vyska>
+         <hlasitost>100</hlasitost>
+         <dabovani>False</dabovani>
+         <sirka>1440</sirka>
+         <url>https://www.youtube.com/watch?v=m8e-FF8MsqU</url>
+      </trailer>
+     <premiera_CR>
+      <kino>
+        <spolecnost>Warner Bros.</spolecnost>
+        <den>05</den>
+        <mesic>08</mesic>
+        <rok>1999</rok>
+      </kino>
+      <DVD>
+        <spolecnost>Warner Bros.</spolecnost>
+        <den>11</den>
+        <mesic>02</mesic>
+        <rok>2004</rok>
+      </DVD>
+     </premiera_CR>
+</movie>
+</MujTop>
